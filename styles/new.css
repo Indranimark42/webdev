@@ -1,0 +1,56 @@
+html{
+    background-image: url(https://media1.giphy.com/media/SVCSsoKU5v6ZJLk07n/giphy.gif?cid=ecf05e47zxtyicq204zwubr4n6p3a3p94g2pz5fb5ml5d790&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size: cover;
+   }
+
+   h1{
+    background-color:#834fb0 ;
+    font-family: 'Pixelify Sans'; 
+    color: #e3ee4a;
+    content: counter(heading-counter);
+    counter-increment: heading-counter;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #eee674;
+    margin: 45px 0px 8px 0px;
+  }
+
+  h5{
+    background-color:#834fb0 ;
+    font-family: 'Pixelify Sans'; 
+    color: #e3ee4a;
+    content: counter(heading-counter);
+    counter-increment: heading-counter;
+    border-radius: 3px;
+    border: 1px solid #eee674;
+    padding: 8px;
+  }
+
+
+  section{
+    counter-reset: heading-counter;
+  }
+
+   p{
+    font-family: 'Pixelify Sans'; 
+    color: #e3f15c;
+   } 
+
+   a{
+    color: #e3ee4a;
+    border-radius: 4px;
+    text-decoration: none;
+   }
+
+   a:hover{
+    text-decoration: underline;
+   }
+
+   ul{
+    font-family: 'Pixelify Sans'; 
+    color:#eee674;
+    list-style: square;
+    margin: 8px;
+    /*width: 1000px;*/
+   }
+   

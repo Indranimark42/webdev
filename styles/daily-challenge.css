@@ -1,0 +1,47 @@
+
+body{
+ text-align: center;
+}
+
+  img{
+ width: 400px;
+ height: 400px;
+ border-bottom: #eee674;
+ border-width: 10px;
+ border-style: groove;
+ }
+   #more{
+    color: #f5ad42;
+    font-weight: bold;
+    font-size: 52px;
+   }
+
+   .top-link{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #eee674;
+    color: #834fb0;
+    text-decoration: none;
+    z-index: 1000;
+    font-family: 'Pixelify Sans';
+   }
+
+   header h1{
+        margin: 12px;
+  }
+
+   /*main p {
+        margin: 12px;
+        color: azure;
+   }*/
+
+   /*.MORE_TO_IT{
+        margin: 10px;
+        color: antiquewhite;
+        
+   }*/
+
+
+
